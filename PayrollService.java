@@ -1,0 +1,1 @@
+public class PayrollService{public static double hra(double b){return b*.2;}public static double da(double b){return b*.1;}public static double bonus(double b){return b*.05;}public static double gross(double b){return b+hra(b)+da(b)+bonus(b);}public static double net(double b){double g=gross(b);return g-g*.1;}}

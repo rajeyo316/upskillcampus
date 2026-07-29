@@ -1,0 +1,1 @@
+import java.io.*;import java.util.*;public class FileManager{public static void save(ArrayList<Employee> l,String f)throws Exception{PrintWriter p=new PrintWriter(new FileWriter(f));for(Employee e:l)p.println(e.getEmployeeId()+","+e.getName());p.close();}}

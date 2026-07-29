@@ -1,0 +1,1 @@
+import java.util.*;public class EmployeeManager{private ArrayList<Employee> list=new ArrayList<>();public void add(Employee e){list.add(e);}public ArrayList<Employee> all(){return list;}public Employee find(int id){for(Employee e:list)if(e.getEmployeeId()==id)return e;return null;}}
